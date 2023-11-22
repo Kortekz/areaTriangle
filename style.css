@@ -31,8 +31,10 @@ input[type="text"] {
     padding: 10px;
     margin-bottom: 15px;
     margin: 10px auto;
-    border: 1px solid #ccc; /* Light gray border */
+    border: 1px solid #ccc; 
     border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
 }
 
 /* Button */
@@ -42,7 +44,7 @@ input[type="text"] {
 }
 button {
     padding: 10px 20px;
-    background-color: #01395f; /* Blue */
+    background-color: #01395f; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -54,7 +56,7 @@ button {
 
 /* Button hover effect */
 button:hover {
-    background-color: #2980b9; /* Darker blue on hover */
+    background-color: #2980b9; 
 }
 
 /* Display area */
@@ -62,8 +64,10 @@ input[data-display] {
     width: 20%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc; /* Light gray border */
+    border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #fff; /* White background */
-    color: #333; /* Dark gray text */
+    background-color: #fff; 
+    color: #333; 
+    font-size: 18px;
+    text-align: center;
 }
