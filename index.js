@@ -11,5 +11,7 @@ function area(){
     let input = document.querySelector('[data-height]').value
     let input2 = document.querySelector('[data-base]').value
     let area = eval (`${divide} * ${input2} * ${input}`)
-    display.value = area
+    display.value = area.toFixed(2)
 }
+// makes the input display read only
+document.querySelector('[data-display]').readOnly = true
