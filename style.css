@@ -36,10 +36,9 @@ input[type="text"] {
 }
 
 /* Button */
-#btn{
+.btn{
     padding-top: 20px;
     text-align: center;
-    
 }
 button {
     padding: 10px 20px;
@@ -50,6 +49,7 @@ button {
     cursor: pointer;
     display: block;
     margin: 10px auto;
+    font-size: 18px;
 }
 
 /* Button hover effect */
